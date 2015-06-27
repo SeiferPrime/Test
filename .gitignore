@@ -1,7 +1,12 @@
-	class Exercise7{
-	public static void main(String args[]){
-		int T = Integer.parseInt(args[0]);
-		T = (9/5) * T + 32;
-		System.out.println("T = "+ T);
-	}
-}
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
